@@ -1,7 +1,6 @@
-README
-Author: Steven B.
-September 2014
-
+#README
+###Author: Steven B.
+###September 2014
 
 I own three monitors and commonly leave iTunes, CPU-Z, CPUID Hardware Monitor, Mumble (with it's Connect window open) and the Windows Resource Monitor open on my left screen. I got tired of constantly reopening and arranging all these windows into their normal positions so I wrote this script to do it for me.
 
