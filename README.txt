@@ -9,4 +9,4 @@ The script begins by looking through the open processes list to see if the progr
 
 I fought with Window's UAC for a little bit becuase although normally HWM, CPUZ, and Resource Monitor all require Admin rights to run, launching the script from an elevated command prompt was no issue for these programs. Counter-intuitively Mumble was having issue being started if it wasn't already running, claiming it needed elevated priviledge.
 
-To avoid this, I created a shortcut that launches Python with the script passed as an argument and in the shortcut's properties I clicked the "Run as Administrator". This seemed to solve all issues and the script has the priviledge to launch all of the processes in question if necessary as well as to move the windows to their proper places.
+To avoid this, I created a shortcut that launches a copy of the Python.exe set to run as admin with the script passed as an argument. This seemed to solve all issues and the script has the priviledge to launch all of the processes in question if necessary as well as to move the windows to their proper places.
